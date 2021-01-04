@@ -1,0 +1,16 @@
+Package: zziplib
+Version: @DEB_ZZIPLIB_V@
+Architecture: @DEB_ARCH@
+Maintainer: @DEB_MAINTAINER@
+Depends: 
+Recommends: man-db
+Section: Archiving
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://zziplib.sourceforge.net
+Description: library providing read access on ZIP-archives
+ The zziplib library is intentionally lightweight, it offers the ability
+ to easily extract data from files archived in a single zip file.
+ Applications can bundle files into a single zip archive and access them.
+ The implementation is based only on the (free) subset of compression
+ with the zlib algorithm which is actually used by the zip/unzip tools.
